@@ -3,6 +3,13 @@
         override it */
         
         
+
+/* for class based selectors, use .selector and for id based selectors use #selector; also id's can be used only in one element
+whereas class names can be same across various elements*/
+/* also while specifying class names for elements, we use the following syntax: class="classname1 classname2" now depending upon the 
+requirements we can use selectors using one of the two names, for example, one selector styling for .classname1{} and another 
+.classname2{} styling selector which can apply another styling */
+
         h1, h2, h3{
             text-align: center;
             color: #e8e8e8;
@@ -25,6 +32,9 @@
         }
         a{
             color: lightskyblue;
+        }
+        a:hover{
+            font-size: 130%;
         }
 
         img{
@@ -51,5 +61,8 @@
         the box and style them */
 
 
-
-   
+        .centering:hover{
+            transform: scale(1.20);
+        }
+        
+        
