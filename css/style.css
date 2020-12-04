@@ -1,0 +1,27 @@
+/* without any kind of CSS, there will be always a default CSS styling applied to various elements by the browser;
+        if by some reason the styling does not seem to render any changes to the website, first check the default styling and
+        override it */
+        
+        table, td, th, tr{
+            margin-bottom: 30px;
+            background-color: #eeeded;
+            /* color: #456288; */
+        }
+        h1, h2, h3, img{
+            text-align: center;
+            background-color: #fcf8ec ;
+
+        }
+
+        body, a{
+            background-color: #d0e8f2;
+            color: #0a043c;
+            text-align: justify;
+            
+        }
+        /* NOTE: all elements on a webpage are just boxes of different shapes; so utilizing the styling attributes we can affect the dimensions of
+        the box and style them */
+
+
+
+   

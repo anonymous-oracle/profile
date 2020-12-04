@@ -6,17 +6,33 @@
     <meta name="keywords" content="coding, programming, software, development, engineering, web development, engineer">
     <meta name="author" content="Suhas KS">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
     <title>My profile</title>
 
-    <!-- CSS styling can also be done like this -->
+    <!-- CSS styling can also be done like this
     <style>
+        /* without any kind of CSS, there will be always a default CSS styling applied to various elements by the browser;
+        if by some reason the styling does not seem to render any changes to the website, first check the default styling and
+        override it */
         body{
             background-color: #fcf8ec ;
         }
 
-
-
-    </style>
+        hr{
+            border-color: grey;
+            border-style: dotted none none none;
+            /* border-top-style: dotted; */
+            /* because of the overriding, the horizontal rule on our site has dissappeared; to make it visible we increase the height */
+            height: 0px;
+            /* the percentage is with respect to the width of the entire page */
+            width: 6%;
+            border-width: 7px;
+            
+        }
+        /* NOTE: all elements on a webpage are just boxes of different shapes; so utilizing the styling attributes we can affect the dimensions of
+        the box and style them */
+       
+    </style> -->
 </head>
 <body>
     Home Page
@@ -24,7 +40,7 @@
     <a href="social.html">Social Media</a>
     <!-- <a href="hobbies.html">Hobbies</a> -->
     <a href="contact.html">Contact</a>
-    <hr size="3" noshade>
+    <hr noshade>
 
 <!-- PROFILE PIC AND THE NAME -->
     <table cellspacing="10">
@@ -36,7 +52,7 @@
         </tr>
     </table>
     
-    <hr size="3" noshade="3">
+    <hr noshade="3">
     
 <h2>Hello!</h2>
 <p><strong>Welcome to the site!!</strong> This is just an introduction to my profile, about who I am, what I do and how you can contact me.</p>
@@ -44,7 +60,7 @@
 
 
 
-
-<footer style="position: fixed; bottom: 0; left: 0;"><hr size="3" noshade="3"><strong>NOTE: </strong><em>This website is under active contruction. Expect changes everytime you visit. Thanks!</em></footer>
+<hr noshade="3" class="footerhr">
+<footer style="position: fixed; bottom: 0; left: 0;"><strong>NOTE: </strong><em>This website is under active contruction. Expect changes everytime you visit. Thanks!</em></footer>
 </body>
 </html>
