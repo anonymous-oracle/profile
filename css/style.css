@@ -17,10 +17,13 @@
             background-color: #000000;
             color: #ffffff;
         }  
-        body, a{
+        body{
             background-color: #000000;
             color: #ffffff;
             text-align: justify;    
+        }
+        a{
+            color: lightskyblue;
         }
 
         img{
