@@ -10,18 +10,31 @@ whereas class names can be same across various elements*/
 requirements we can use selectors using one of the two names, for example, one selector styling for .classname1{} and another 
 .classname2{} styling selector which can apply another styling */
 
+/* 
+        hr{
+            margin-top: 15px;
+            margin-bottom: 15px;
+        } */
         h1, h2, h3{
+            /* margin: 0; */
             text-align: center;
             color: #e8e8e8;
             background-color: #495464;
-            
+            /* display: block, none, inline, etc. helps in making sure that the element does not take up the 
+            entire width of the screen and instead only as much as the content width */
+            display: block;
         }
+
+        p{
+            margin: 0;
+        }
+
         th, tr{
             background-color: #ececfc;
             color: #353535;
         }
         table, td{
-            margin-bottom: 30px;
+            /* margin-bottom: 30px; */
             background-color: #000000;
             color: #f4f4f2;
             text-align: left;
@@ -29,12 +42,14 @@ requirements we can use selectors using one of the two names, for example, one s
         body{
             background-color: #000000;
             color: #f4f4f2;
+            margin: 0;
         }
         a{
             color: lightskyblue;
         }
         a:hover{
             font-size: 130%;
+            transition: 250ms;
         }
 
         img{
@@ -50,6 +65,7 @@ requirements we can use selectors using one of the two names, for example, one s
         .centering{
             margin-bottom: 30px;
             margin: auto;
+            margin-top: 15px;
         }
         footer{
             margin-top: 30px;
@@ -63,6 +79,9 @@ requirements we can use selectors using one of the two names, for example, one s
 
         .centering:hover{
             transform: scale(1.20);
+            transition: 250ms;
         }
         
-        
+        #introdiv{
+            background-image: "images/pexels-junior-teixeira-2047905.jpg" ;
+        }
