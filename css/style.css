@@ -10,11 +10,10 @@ whereas class names can be same across various elements*/
 requirements we can use selectors using one of the two names, for example, one selector styling for .classname1{} and another 
 .classname2{} styling selector which can apply another styling */
 
-/* 
         hr{
             margin-top: 15px;
             margin-bottom: 15px;
-        } */
+        } 
 
 /* for position:relative; styling, we should mention pixel width measurement or any other measurement width using left,right,top,bottom
 so that the element will be placed relative to the default position if relative was not mentioned, by the measurement we specify */
@@ -30,6 +29,8 @@ so that the element will be placed relative to the default position if relative 
 
         p{
             margin: 0;
+            text-align: center;
+
         }
 
         th, tr{
