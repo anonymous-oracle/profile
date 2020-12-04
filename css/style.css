@@ -5,22 +5,23 @@
         
         h1, h2, h3{
             text-align: center;
-            color: #ffffff;
+            color: #e8e8e8;
+            background-color: #495464;
 
         }
         th, tr{
-            background-color: #a7a7a7;
-            color: #000000;
+            background-color: #ececfc;
+            color: #353535;
         }
         table, td{
             margin-bottom: 30px;
             background-color: #000000;
-            color: #ffffff;
+            color: #f4f4f2;
             text-align: left;
         }  
         body{
             background-color: #000000;
-            color: #ffffff;
+            color: #f4f4f2;
             text-align: justify;    
         }
         a{
@@ -29,6 +30,12 @@
 
         img{
             background-color: #000000;
+        }
+
+        span{
+            color: #393e46;
+            background-color: #f4f4f2;
+            font-weight: bolder;
         }
         /* NOTE: all elements on a webpage are just boxes of different shapes; so utilizing the styling attributes we can affect the dimensions of
         the box and style them */
