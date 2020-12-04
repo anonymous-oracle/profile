@@ -7,7 +7,6 @@
             text-align: center;
             color: #e8e8e8;
             background-color: #495464;
-            text-align: justify;    
             
         }
         th, tr{
@@ -45,7 +44,9 @@
         footer{
             margin-top: 30px;
         }
-        
+        .optional-contact{
+            text-align: left;
+        }
         /* NOTE: all elements on a webpage are just boxes of different shapes; so utilizing the styling attributes we can affect the dimensions of
         the box and style them */
 
