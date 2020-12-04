@@ -15,6 +15,9 @@ requirements we can use selectors using one of the two names, for example, one s
             margin-top: 15px;
             margin-bottom: 15px;
         } */
+
+/* for position:relative; styling, we should mention pixel width measurement or any other measurement width using left,right,top,bottom
+so that the element will be placed relative to the default position if relative was not mentioned, by the measurement we specify */
         h1, h2, h3{
             /* margin: 0; */
             text-align: center;
