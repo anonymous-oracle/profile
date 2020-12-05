@@ -113,6 +113,7 @@ so that the element will be placed relative to the default position if relative 
             background-size: cover;
             display: flexbox;
             flex-wrap: wrap;
+            
         }
 
         .indexdiv{
