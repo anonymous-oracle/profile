@@ -113,7 +113,11 @@ so that the element will be placed relative to the default position if relative 
             /* font-size: 120%; */
         }
     
-
+        .indexdiv{
+            display: block;
+            width: 30%;
+            margin: auto;
+        }
         html{
             background: url("images/pexels-junior-teixeira-2047905.jpg") no-repeat center fixed;
             background-size: cover;
