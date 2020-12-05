@@ -108,9 +108,9 @@ so that the element will be placed relative to the default position if relative 
         } */
         .indexdiv:hover{
             transition: 250ms;
-            transform: scale(1.4);
+            transform: scale(1.5);
             background-color: #000000;
-
+            /* font-size: 120%; */
         }
     
 
