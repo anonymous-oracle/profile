@@ -46,13 +46,14 @@ so that the element will be placed relative to the default position if relative 
         body{
             color: #f4f4f2;
             /* margin: 0; */
-            font-family: 'Courier New', 'Courier', monospace;
+            font-family: cursive,'Courier New', 'Courier', monospace;
             font-weight: bolder;
             font-size: 15px;            
         }
         a{
             color: lightskyblue;
-            /* font-family: 'Arial Narrow Bold', sans-serif; */
+            font-family: 'Arial Narrow Bold', sans-serif;
+            font-weight: normal;
         }
         a:hover{
             font-size: 150%;
