@@ -22,7 +22,7 @@ so that the element will be placed relative to the default position if relative 
             text-align: center;
             margin: auto;
             font-family: 'Courier New', Courier;
-            margin: 2% auto;
+            margin: auto;
 
             color: #e8e8e8;
             /* display: block, none, inline, etc. helps in making sure that the element does not take up the 
