@@ -109,7 +109,7 @@ so that the element will be placed relative to the default position if relative 
         } */
         
         html{
-            background: url("images/pexels-junior-teixeira-2047905.jpg") no-repeat center fixed;
+            background: url("images/macbook.jpeg") no-repeat center fixed;
             background-size: cover;
             display: flexbox;
             flex-wrap: wrap;
