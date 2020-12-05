@@ -107,18 +107,14 @@ so that the element will be placed relative to the default position if relative 
             display: flex;
             flex-wrap: wrap;
         } */
-        .indexdiv:hover{
-            transition: 250ms;
-            transform: scale(1.4);
-            background-color: rgba(0, 0, 0, 0.65);
-            /* width: auto;
-            display: block;
-            margin: auto; */
-            /* block-size: auto; */
-            /* padding: 1%; */
-            /* font-size: 120%; */
+        
+        html{
+            background: url("images/pexels-junior-teixeira-2047905.jpg") no-repeat center fixed;
+            background-size: cover;
+            display: flexbox;
+            flex-wrap: wrap;
         }
-    
+
         .indexdiv{
             display: block;
             /* block-size: auto; */
@@ -131,7 +127,17 @@ so that the element will be placed relative to the default position if relative 
             /* position: fixed; */
             /* padding: 1%; */
         }
-        html{
-            background: url("images/pexels-junior-teixeira-2047905.jpg") no-repeat center fixed;
-            background-size: cover;
+
+        .indexdiv:hover{
+            transition: 250ms;
+            transform: scale(1.4);
+            background-color: rgba(0, 0, 0, 0.65);
+            /* width: auto;
+            display: block;
+            margin: auto; */
+            /* block-size: auto; */
+            /* padding: 1%; */
+            /* font-size: 120%; */
         }
+    
+        
