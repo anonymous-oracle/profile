@@ -110,10 +110,10 @@ so that the element will be placed relative to the default position if relative 
             transition: 250ms;
             transform: scale(1.5);
             background-color: #000000;
-            width: auto;
+            /* width: auto;
             display: block;
-            margin: auto;
-            block-size: auto;
+            margin: auto; */
+            /* block-size: auto; */
             /* padding: 1%; */
 
             /* font-size: 120%; */
@@ -123,11 +123,11 @@ so that the element will be placed relative to the default position if relative 
             display: block;
             /* block-size: auto; */
             /* min-width: 30%; */
-            width: auto;
-            block-size: auto;
+            /* width: auto;
+            block-size: auto; */
             /* max-width: 60%; */
             /* width: auto; */
-            margin: auto;
+            /* margin: auto; */
             /* position: fixed; */
             /* padding: 1%; */
         }
