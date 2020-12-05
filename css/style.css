@@ -21,9 +21,8 @@ so that the element will be placed relative to the default position if relative 
             /* margin: 0; */
             text-align: center;
             margin: auto;
-            font-family: 'Courier New', Courier;
             margin: auto;
-
+            font-weight: bold;
             color: #e8e8e8;
             /* display: block, none, inline, etc. helps in making sure that the element does not take up the 
             entire width of the screen and instead only as much as the content width */
@@ -49,14 +48,13 @@ so that the element will be placed relative to the default position if relative 
             background-color: #000000;
             color: #f4f4f2;
             /* margin: 0; */
-            background-size: 100%;
-            background-repeat: no-repeat;
-            font-family: monospace;
+            font-family: 'Courier New', 'Courier', monospace;
+            font-weight: bolder;
             font-size: 15px;
         }
         a{
             color: lightskyblue;
-            font-family: 'Arial Narrow Bold', sans-serif;
+            /* font-family: 'Arial Narrow Bold', sans-serif; */
         }
         a:hover{
             font-size: 150%;
@@ -81,6 +79,7 @@ so that the element will be placed relative to the default position if relative 
         footer{
             margin-top: 30px;
             font-family: serif;
+            font-weight: normal;
         }
         .optional-contact{
             text-align: left;
