@@ -115,7 +115,7 @@ so that the element will be placed relative to the default position if relative 
     
         .indexdiv{
             display: block;
-            width: 30%;
+            width: 40%;
             margin: auto;
             /* position: fixed; */
             padding: 0;
