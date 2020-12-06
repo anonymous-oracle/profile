@@ -120,7 +120,7 @@ so that the element will be placed relative to the default position if relative 
             display: block;
             /* block-size: auto; */
             /* min-width: 30%; */
-            width: 40%;
+            width: auto;
             margin: auto;
             /* position: fixed; */
             /* padding: 1%; */
