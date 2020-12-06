@@ -52,12 +52,12 @@ so that the element will be placed relative to the default position if relative 
         }
         a{
             color: lightskyblue;
-            font-family: 'Arial Narrow Bold', sans-serif;
+            font-family: Alata,cursive,'Courier New', 'Courier', monospace;
             font-weight: normal;
+            text-decoration: none;
         }
         a:hover{
-            font-size: 150%;
-            transition: 250ms;
+            color: white;
         }
         
         /* img{
