@@ -102,9 +102,9 @@ so that the element will be placed relative to the default position if relative 
             margin: 100%;
         } */
 
-        .contactspan:hover{
-            transition: 250ms;
-            font-size: 170%;
+        .optional-contact:hover{
+            transition: 200ms;
+            font-size: 140%;
         }
 
         /* * {
