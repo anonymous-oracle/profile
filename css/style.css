@@ -55,9 +55,11 @@ so that the element will be placed relative to the default position if relative 
             font-family: Alata,cursive,'Courier New', 'Courier', monospace;
             font-weight: normal;
             text-decoration: none;
+            font-size: 1.1rem;
+
         }
         a:hover{
-            font-size: 120%;
+            /* font-size: 120%; */
             transition: 200ms;
             color: white;
         }
@@ -140,4 +142,6 @@ so that the element will be placed relative to the default position if relative 
             /* font-size: 120%; */
         }
     
-        
+        .links{
+            font-size: 1.1rem;
+        }
