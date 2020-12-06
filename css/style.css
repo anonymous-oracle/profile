@@ -121,14 +121,10 @@ so that the element will be placed relative to the default position if relative 
         }
 
         .indexdiv{
-            display: flexbox;
-            flex-wrap: wrap;
-            /* block-size: auto; */
-            /* min-width: 30%; */
             width: auto;
             margin: auto;
-            /* position: fixed; */
-            /* padding: 1%; */
+            display: flexbox;
+            flex-wrap: wrap;
         }
 
         .indexdiv:hover{
@@ -138,9 +134,6 @@ so that the element will be placed relative to the default position if relative 
             width: auto;
             display: block;
             margin: auto;
-            /* block-size: auto; */
-            /* padding: 1%; */
-            /* font-size: 120%; */
         }
     
         .links{
