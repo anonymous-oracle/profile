@@ -133,7 +133,7 @@ so that the element will be placed relative to the default position if relative 
         .indexdiv:hover{
             transition: 250ms;
             transform: scale(1.2);
-            background-color: rgba(0, 0, 0, 0.75);
+            background-color: rgba(0, 0, 0, 0.5);
             /* width: auto;
             display: block;
             margin: auto; */
