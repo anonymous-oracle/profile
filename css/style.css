@@ -57,6 +57,8 @@ so that the element will be placed relative to the default position if relative 
             text-decoration: none;
         }
         a:hover{
+            font-size: 130%;
+            transition: 200ms;
             color: white;
         }
         
